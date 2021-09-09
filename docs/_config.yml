@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Test site for multi-code-width project
 domain: mbforbes.github.io
 url: "https://mbforbes.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "/multi-code-widths/" # the subpath of your site, e.g. /blog
+baseurl: "/multi-code-width/" # the subpath of your site, e.g. /blog
 twitter_username: maxforbes
 github_username:  mbforbes
 
