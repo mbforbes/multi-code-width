@@ -5,7 +5,7 @@
 layout: home
 ---
 
-Code in backtick-fenced block w/ lang:
+TS, will be formatted:
 
 ```ts
 /**
@@ -16,12 +16,23 @@ type Entity = number
 
 type ComponentClass<T extends Component> = new (...args: any[]) => T
 ```
+
+Py, won't be formatted:
+
+```python
+def (foo: str) -> None:
+    """Ya"""
+    print(f"Got {foo}, isn't that great?")
+```
+
+
 <style>
 pre, code {
     background-color: #f0f0f0;
 }
 </style>
-<link rel="stylesheet" href="https://unpkg.com/@highlightjs/cdn-assets@11.2.0/styles/default.min.css">
+<link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css"/>
+<link rel="stylesheet" href="https://unpkg.com/@highlightjs/cdn-assets@11.2.0/styles/github.min.css">
 <script src="//unpkg.com/@highlightjs/cdn-assets@11.2.0/highlight.min.js"></script>
 <script type="module">
     import prettier from "https://unpkg.com/prettier@2.4.0/esm/standalone.mjs";
